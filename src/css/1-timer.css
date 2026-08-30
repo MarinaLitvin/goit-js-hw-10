@@ -3,6 +3,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  padding-left: 156px;
+}
+
 #datetime-picker {
   border-radius: 4px;
   width: 272px;
@@ -18,7 +22,7 @@
 }
 
 
-.button {
+.start-timer-button {
   border-radius: 8px;
   border: none;
   width: 75px;
@@ -31,12 +35,12 @@
   letter-spacing: 0.04em;
 }
 
-.button:hover {
+.start-timer-button:hover {
   background-color: #6C8CFF;
   color: white;
 }
 
-.button:not(:disabled) {
+.start-timer-button:not(:disabled) {
   background-color: #4e75ff;
   color: #ffffff;
 }
