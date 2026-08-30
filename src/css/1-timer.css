@@ -5,6 +5,7 @@
 
 body {
   padding-left: 156px;
+  padding-top: 36px;
 }
 
 #datetime-picker {
@@ -20,7 +21,6 @@ body {
   padding-top: 8;
   padding-bottom: 8;
 }
-
 
 .start-timer-button {
   border-radius: 8px;
