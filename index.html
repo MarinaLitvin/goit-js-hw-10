@@ -5,99 +5,28 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/goit-js-hw-10/assets/styles-CUdwgqMG.js"></script>
-    <script type="module" crossorigin src="/goit-js-hw-10/assets/vendor-BbSUbo7J.js"></script>
-    <script type="module" crossorigin src="/goit-js-hw-10/assets/1-timer-CzEPgxe1.js"></script>
-    <script type="module" crossorigin src="/goit-js-hw-10/assets/2-snackbar-9L_pSxSM.js"></script>
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-BhuIKE7j.css">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-C1gPI-5C.css">
-  </head>
-  <body>
-    <main>
-      <!-- Loads the specified .html file -->
-      <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Timer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-Bp-CfzuQ.css">
   </head>
   <body>
     <main>
-      <input type="text" id="datetime-picker" />
-      <button class="start-timer-button" type="button" data-start>Start</button>
-
-      <div class="timer">
-        <div class="field">
-          <span class="value" data-days>00</span>
-          <span class="label">Days</span>
-        </div>
-        <div class="field">
-          <span class="value" data-hours>00</span>
-          <span class="label">Hours</span>
-        </div>
-        <div class="field">
-          <span class="value" data-minutes>00</span>
-          <span class="label">Minutes</span>
-        </div>
-        <div class="field">
-          <span class="value" data-seconds>00</span>
-          <span class="label">Seconds</span>
-        </div>
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="./1-timer.html">Timer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./2-snackbar.html">Snackbar</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </main>
-
-  </body>
-</html>
-
-      <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Snackbar</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <main>
-      <form class="form">
-        <label class="delay">
-          Delay (ms)
-          <input type="number" name="delay" required />
-        </label>
-
-        <fieldset class="fieldset">
-          <legend>State</legend>
-          <label>
-            <input type="radio" name="state" value="fulfilled" required />
-            Fulfilled
-          </label>
-          <label>
-            <input type="radio" name="state" value="rejected" required />
-            Rejected
-          </label>
-        </fieldset>
-
-        <button class="delay-notification-button">Create notification</button>
-      </form>
-    </main>
-
-  </body>
-</html>
-
     </main>
   </body>
 </html>
